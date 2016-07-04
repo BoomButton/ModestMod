@@ -18,6 +18,9 @@ reaction_other
 	[PRODUCT:100:1:SKIN_TANNED:NONE:GET_MATERIAL_FROM_REAGENT:A:TAN_MAT]
 	[SKILL:TANNER]
 	[AUTOMATIC]
+	[DESCRIPTION:Make leather from animal skin.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:This reaction is automatically queued when there is an availible animal skin. To turn off automatic queuing, go to (o)rders (W)orkshop and toggle auto-(t)an.]
 
 [REACTION:RENDER_FAT]
 	[NAME:render fat]
@@ -27,6 +30,9 @@ reaction_other
 	[PRODUCT:100:1:GLOB:NONE:GET_MATERIAL_FROM_REAGENT:A:RENDER_MAT]
 	[SKILL:COOK]
 	[AUTOMATIC]
+	[DESCRIPTION:Render animal fat into tallow.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:This reaction is automatically queued when there is available animal fat. To turn off automatic queuing, go to (o)rders (W)orkshop and toggle auto-(k)itchen.]
 
 [REACTION:MAKE_SOAP_FROM_TALLOW]
 	[NAME:make soap from tallow]
@@ -41,6 +47,11 @@ reaction_other
 	[PRODUCT:100:1:BAR:NONE:GET_MATERIAL_FROM_REAGENT:tallow:SOAP_MAT]
 		[PRODUCT_DIMENSION:150]
 	[SKILL:SOAP_MAKING]
+	[DESCRIPTION:Make soap from animal tallow and lye.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Animal fat is rendered into tallow at a kitchen.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Lye is made from ash at an ashery.]
 
 [REACTION:MAKE_SOAP_FROM_OIL]
 	[NAME:make soap from oil]
@@ -60,6 +71,11 @@ reaction_other
 	[PRODUCT:100:1:BAR:NONE:GET_MATERIAL_FROM_REAGENT:oil:SOAP_MAT]
 		[PRODUCT_DIMENSION:150]
 	[SKILL:SOAP_MAKING]
+	[DESCRIPTION:Make soap from plant oil and lye.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Plant oil is produced at a screw press.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Lye is made from ash at an ashery.]
 
 [REACTION:MAKE_PEARLASH]
 	[NAME:make pearlash]
@@ -68,6 +84,9 @@ reaction_other
 	[PRODUCT:100:1:BAR:NONE:PEARLASH:NONE][PRODUCT_DIMENSION:150]
 	[FUEL]
 	[SKILL:SMELT]
+	[DESCRIPTION:Make pearlash from potash for use in the production of clear glass.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Potash is made from ash at an ashery.]
 
 [REACTION:MAKE_PLASTER_POWDER]
 	[NAME:make plaster powder]
@@ -77,6 +96,9 @@ reaction_other
 	[PRODUCT:100:1:POWDER_MISC:NONE:INORGANIC:PLASTER][PRODUCT_DIMENSION:150][PRODUCT_TO_CONTAINER:B]
 	[FUEL]
 	[SKILL:SMELT]
+	[DESCRIPTION:Make plaster powder from gypsum, alabaster, selenite, or satinspar.]
+	[DESCRIPTION:	]
+	[DESCRIPTION:Plaster powder is used in the hospital.]
 
 [REACTION:MAKE_SHARP_ROCK]
 	[NAME:make sharp rock]
@@ -94,6 +116,9 @@ reaction_other
 		[HAS_MATERIAL_REACTION_PRODUCT:PRESS_LIQUID_MAT] to ensure only worthwhile seeds get used
 	[PRODUCT:100:1:GLOB:NONE:GET_MATERIAL_FROM_REAGENT:seeds:NONE][PRODUCT_PASTE] makes the glob a "paste"
 	[SKILL:MILLING]
+	[DESCRIPTION:Mill oily seeds and nuts to paste, which can then be pressed into oil and cake at a screw press.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Oily seeds/nuts include cotton seeds, flax seeds, hemp seeds, kenaf seeds, and rock nuts.]
 
 [REACTION:MAKE_CLAY_JUG]
 	[NAME:make clay jug]
@@ -103,6 +128,9 @@ reaction_other
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_JUG:GET_MATERIAL_FROM_REAGENT:clay:FIRED_MAT]
 	[FUEL]
 	[SKILL:POTTERY]
+	[DESCRIPTION:Make an earthenware jug from clay, a stoneware jug from fire clay, or a porcelain jug from kaolinite.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Earthenware must be glazed in order to hold liquids.]
 
 [REACTION:MAKE_CLAY_BRICKS]
 	[NAME:make clay bricks]
@@ -112,6 +140,7 @@ reaction_other
 	[PRODUCT:100:1:BLOCKS:NONE:GET_MATERIAL_FROM_REAGENT:clay:FIRED_MAT]
 	[FUEL]
 	[SKILL:POTTERY]
+	[DESCRIPTION:Make an earthenware brick from clay, a stoneware brick from fire clay, or a porcelain brick from kaolinite.]
 
 [REACTION:MAKE_CLAY_STATUE]
 	[NAME:make clay statue]
@@ -121,6 +150,7 @@ reaction_other
 	[PRODUCT:100:1:STATUE:NONE:GET_MATERIAL_FROM_REAGENT:clay:FIRED_MAT]
 	[FUEL]
 	[SKILL:POTTERY]
+	[DESCRIPTION:Make an earthenware statue from clay, a stoneware statue from fire clay, or a porcelain statue from kaolinite.]
 
 [REACTION:MAKE_LARGE_CLAY_POT]
 	[NAME:make large clay pot]
@@ -130,6 +160,9 @@ reaction_other
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_LARGE_POT:GET_MATERIAL_FROM_REAGENT:clay:FIRED_MAT]
 	[FUEL]
 	[SKILL:POTTERY]
+	[DESCRIPTION:Make an earthenware pot from clay, a stoneware pot from fire clay, or a porcelain pot from kaolinite.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Earthenware must be glazed in order to hold liquids.]
 
 [REACTION:MAKE_CLAY_CRAFTS]
 	[NAME:make clay crafts]
@@ -139,6 +172,7 @@ reaction_other
 	[PRODUCT:100:1:CRAFTS:NONE:GET_MATERIAL_FROM_REAGENT:clay:FIRED_MAT]
 	[FUEL]
 	[SKILL:POTTERY]
+	[DESCRIPTION:Make earthenware crafts from clay, stoneware crafts from fire clay, or porcelain crafts from kaolinite.]
 
 [REACTION:GLAZE_JUG]
 	[NAME:glaze clay/stone jug]
@@ -158,6 +192,9 @@ reaction_other
 	[IMPROVEMENT:100:jug:GLAZED:GET_MATERIAL_FROM_REAGENT:glaze:GLAZE_MAT]
 	[FUEL]
 	[SKILL:GLAZING]
+	[DESCRIPTION:Glaze a pottery jug with ash or cassiterite.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Earthenware must be glazed in order to hold liquids.]
 
 [REACTION:GLAZE_STATUE]
 	[NAME:glaze clay/stone statue]
@@ -172,6 +209,7 @@ reaction_other
 	[IMPROVEMENT:100:statue:GLAZED:GET_MATERIAL_FROM_REAGENT:glaze:GLAZE_MAT]
 	[FUEL]
 	[SKILL:GLAZING]
+	[DESCRIPTION:Glaze a pottery statue with ash or cassiterite. This will increase its value.]
 
 [REACTION:GLAZE_LARGE_POT]
 	[NAME:glaze large clay/stone pot]
@@ -186,6 +224,9 @@ reaction_other
 	[IMPROVEMENT:100:large pot:GLAZED:GET_MATERIAL_FROM_REAGENT:glaze:GLAZE_MAT]
 	[FUEL]
 	[SKILL:GLAZING]
+	[DESCRIPTION:Glaze a pot with ash or cassiterite.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Earthenware must be glazed in order to hold liquids.]
 
 [REACTION:GLAZE_CRAFT]
 	[NAME:glaze clay/stone craft]
@@ -200,6 +241,7 @@ reaction_other
 	[IMPROVEMENT:100:craft:GLAZED:GET_MATERIAL_FROM_REAGENT:glaze:GLAZE_MAT]
 	[FUEL]
 	[SKILL:GLAZING]
+	[DESCRIPTION:Glaze a pottery craft with ash or cassiterite. This will increase its value.]
 
 [REACTION:PRESS_OIL]
 	[NAME:press liquid from paste]
@@ -216,6 +258,9 @@ reaction_other
 	[PRODUCT:100:1:LIQUID_MISC:NONE:GET_MATERIAL_FROM_REAGENT:paste:PRESS_LIQUID_MAT][PRODUCT_TO_CONTAINER:liquid container]
 	[PRODUCT:100:1:GLOB:NONE:GET_MATERIAL_FROM_REAGENT:paste:NONE][PRODUCT_PRESSED]
 	[SKILL:PRESSING]
+	[DESCRIPTION:Press oil from seed/nut paste. Seeds and nuts are ground to paste at a quern or millstone.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:This reaction requires a jug to contain the product.]	
 
 [REACTION:PRESS_OIL_FRUIT]
 	[NAME:press liquid from fruit]
@@ -233,6 +278,9 @@ reaction_other
 	[PRODUCT:100:1:LIQUID_MISC:NONE:GET_MATERIAL_FROM_REAGENT:plant:PRESS_LIQUID_MAT][PRODUCT_TO_CONTAINER:liquid container]
 	[PRODUCT:100:1:GLOB:NONE:GET_MATERIAL_FROM_REAGENT:plant:NONE][PRODUCT_PRESSED]
 	[SKILL:PRESSING]
+	[DESCRIPTION:Press oil from soft, oily fruit, such as olives.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:This reaction requires a jug to contain the product.]
 
 [REACTION:MAKE_CLAY_HIVE]
 	[NAME:make clay hive]
@@ -242,6 +290,7 @@ reaction_other
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_HIVE:GET_MATERIAL_FROM_REAGENT:clay:FIRED_MAT]
 	[FUEL]
 	[SKILL:POTTERY]
+	[DESCRIPTION:Make an earthenware hive from clay, a stoneware hive from fire clay, or a porcelain hive from kaolinite.]
 
 [REACTION:PRESS_HONEYCOMB]
 	[NAME:press honey from honeycomb]
@@ -258,6 +307,9 @@ reaction_other
 	[PRODUCT:100:1:LIQUID_MISC:NONE:GET_MATERIAL_FROM_REAGENT:honeycomb:HONEYCOMB_PRESS_MAT][PRODUCT_TO_CONTAINER:liquid container]
 	[PRODUCT:100:1:GLOB:NONE:GET_MATERIAL_FROM_REAGENT:honeycomb:NONE][PRODUCT_PRESSED]
 	[SKILL:PRESSING]
+	[DESCRIPTION:Press honey from a honeycomb, which is collected from hives.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:This reaction requires a jug to contain the product.]
 
 [REACTION:MAKE_WAX_CRAFTS]
 	[NAME:make wax crafts]
@@ -266,6 +318,7 @@ reaction_other
 		[REACTION_CLASS:WAX]
 	[PRODUCT:100:1:CRAFTS:NONE:GET_MATERIAL_FROM_REAGENT:wax:NONE]
 	[SKILL:WAX_WORKING]
+	[DESCRIPTION:Make figurines and other crafts from beeswax. Wax is produced when a honeycomb is pressed at a screw press.]
 
 [REACTION:BREW_DRINK_FROM_PLANT]
 	[NAME:brew drink from plant]
@@ -283,6 +336,9 @@ reaction_other
 		[PRODUCT_DIMENSION:150]
 	[PRODUCT:100:1:SEEDS:NONE:GET_MATERIAL_FROM_REAGENT:plant:SEED_MAT]
 	[SKILL:BREWING]
+	[DESCRIPTION:Brew alcohol from whole plants, such as sweet pods.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:This reaction requires a barrel or large pot to contain the product.]
 
 [REACTION:BREW_DRINK_FROM_PLANT_GROWTH]
 	[NAME:brew drink from fruit]
@@ -300,6 +356,10 @@ reaction_other
 		[PRODUCT_DIMENSION:150]
 	[PRODUCT:100:1:SEEDS:NONE:GET_MATERIAL_FROM_REAGENT:plant:SEED_MAT]
 	[SKILL:BREWING]
+	[DESCRIPTION:Brew alcohol from fruits, such as strawberries.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:This reaction requires a barrel or large pot to contain the product.]
+
 
 [REACTION:MAKE_MEAD]
 	[NAME:make mead]
@@ -319,6 +379,9 @@ reaction_other
 		[PRODUCT_TO_CONTAINER:barrel/pot]
 		[PRODUCT_DIMENSION:150]
 	[SKILL:BREWING]
+	[DESCRIPTION:Brew alcohol from honey. Honey is pressed from honeycombs at a screw press.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:This reaction requires a barrel or large pot to contain the product.]
 
 [REACTION:PROCESS_PLANT_TO_BAG]
 	[NAME:process plant to bag]
@@ -337,6 +400,7 @@ reaction_other
 	sometimes being picked alone
 	[PRODUCT:100:2:SEEDS:NONE:GET_MATERIAL_FROM_REAGENT:plant:SEED_MAT]
 	[SKILL:PROCESSPLANTS]
+	[DESCRIPTION:Pick fruits or leaves from gathered whole plants, such as quarry bushes.]
 
 [REACTION:MAKE_QUICKLIME]
 	[NAME:make quicklime]
@@ -346,6 +410,9 @@ reaction_other
 	[PRODUCT:100:1:POWDER_MISC:NONE:INORGANIC:QUICKLIME][PRODUCT_DIMENSION:150][PRODUCT_TO_CONTAINER:B]
 	[FUEL]
 	[SKILL:SMELT]
+	[DESCRIPTION:Make quicklime from calcite, chalk, limestone, or marble.]
+	[DESCRIPTION:	]
+	[DESCRIPTION:Quicklime is used to make milk of lime at an ashery.]
 
 [REACTION:MAKE_MILK_OF_LIME]
 	[NAME:make milk of lime]
@@ -363,6 +430,7 @@ reaction_other
 		[PRODUCT_TO_CONTAINER:bucket]
 		[PRODUCT_DIMENSION:150]
 	[SKILL:LYE_MAKING] close enough for now!
+	[DESCRIPTION:Make milk of lime from quicklime for use in parchment making. Quicklime is made at a kiln.]
 
 [REACTION:MAKE_PARCHMENT]
 	[NAME:make parchment]
@@ -379,6 +447,9 @@ reaction_other
 		[DOES_NOT_DETERMINE_PRODUCT_AMOUNT]
 	[PRODUCT:100:1:SHEET:NONE:GET_MATERIAL_FROM_REAGENT:A:PARCHMENT_MAT]
 	[SKILL:TANNER] close enough for now!
+	[DESCRIPTION:Make parchment from animal skin using milk of lime.
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Milk of lime is produced from quicklime at an ashery.] 
 
 [REACTION:MAKE_SCROLL]
 	[NAME:make scroll]
@@ -389,6 +460,9 @@ reaction_other
 		[PRODUCT_TOKEN:scroll]
 	[IMPROVEMENT:100:scroll:SPECIFIC:ROLLERS:GET_MATERIAL_FROM_REAGENT:scroll rollers:NONE]
 	[SKILL:BOOKBINDING]
+	[DESCRIPTION:Place a blank sheet of paper or parchment into a scroll roller to make a scroll.]
+	[DESCRIPTION:	]
+	[DESCRIPTION:Scrolls can be written on by scholars and scribes assigned to libraries.]
 
 [REACTION:MAKE_QUIRE]
 	[NAME:make quire]
@@ -396,6 +470,9 @@ reaction_other
 	[REAGENT:sheet:10000:SHEET:NONE:NONE:NONE]
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_QUIRE:GET_MATERIAL_FROM_REAGENT:sheet:NONE]
 	[SKILL:BOOKBINDING]
+	[DESCRIPTION:Fold a blank sheet of paper or parchment into a quire. Quires can be bound into books once written on.]
+	[DESCRIPTION:	]
+	[DESCRIPTION:Quires can be written on by scholars and scribes assigned to libraries.]
 
 [REACTION:MAKE_SHEET_FROM_PLANT]
 	[NAME:make sheet from plant]
@@ -407,6 +484,9 @@ reaction_other
 		[PRODUCT_PRESSED]
 	[PRODUCT:100:1:SEEDS:NONE:GET_MATERIAL_FROM_REAGENT:plant:SEED_MAT]
 	[SKILL:PAPERMAKING]
+	[DESCRIPTION:Make a sheet directly from a plant. Only used for papyrus making.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Other plants must be mashed into slurry at a quern or millstone and then pressed into paper at a screw press.]
 
 [REACTION:MAKE_SLURRY_FROM_PLANT]
 	[NAME:mash plant into slurry]
@@ -419,6 +499,9 @@ reaction_other
 		[PRODUCT_PASTE]
 	[PRODUCT:100:1:SEEDS:NONE:GET_MATERIAL_FROM_REAGENT:plant:SEED_MAT]
 	[SKILL:PAPERMAKING]
+	[DESCRIPTION:Mash fibrous plants into a slurry, which can be pressed into paper at a screw press.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Fibrous plants include flax, jute, hemp, cotton, ramie, kenaf, pig tail, and rope reed.]
 
 [REACTION:PRESS_PLANT_PAPER]
 	[NAME:press plant slurry into paper sheet]
@@ -429,6 +512,7 @@ reaction_other
 	[PRODUCT:100:1:SHEET:NONE:GET_MATERIAL_FROM_REAGENT:paste:NONE]
 		[PRODUCT_PRESSED]
 	[SKILL:PAPERMAKING]
+	[DESCRIPTION:Press fibrous plant slurry into paper. Plants are mashed into slurry at a quern or millstone.]
 
 [REACTION:BIND_BOOK]
 	[NAME:bind book]
@@ -446,6 +530,9 @@ reaction_other
 	[IMPROVEMENT:100:book:PAGES:GET_MATERIAL_FROM_REAGENT:quire:NONE]
 		note -- right now, the above will auto-pull any writing from the quire and place it in the pages improvement
 	[SKILL:BOOKBINDING]
+	[DESCRIPTION:Bind a written-upon quire into a book binding using a spool of thread.]
+	[DESCRIPTION:	]
+	[DESCRIPTION:Book bindings can be made at a craftsdwarf's workshop, forge, or glass furnace.]
 
 [REACTION:CARVE_BONE_FIGURINE]
 	[NAME:carve bone figurine]
