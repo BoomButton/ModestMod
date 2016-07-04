@@ -175,6 +175,7 @@ Crabs were sponsored by the generous contributions of the Bay 12 community.
 	[CHILD:1]
 	[GENERAL_CHILD_NAME:crabling:crablings:crabling]
 	[LITTERSIZE:2:3]
+	[PET_EXOTIC]
 	--- end Modest Mod ---
 	[HOMEOTHERM:10071]
 	[APPLY_CREATURE_VARIATION:STANDARD_WALKING_GAITS:9000:8900:8825:8775:9500:9900] 1 kph
@@ -437,6 +438,7 @@ Cuttlefish were sponsored by the generous contributions of the Bay 12 community.
 	[SWIMS_INNATE]
 	[CANNOT_JUMP]
 	[NATURAL]
+	[PET_EXOTIC]
 	[NOT_BUTCHERABLE]
 	[BIOME:ANY_OCEAN]
 	[NO_DRINK]
@@ -575,6 +577,7 @@ Orcas were sponsored by the generous contributions of the Bay 12 community.
 	[LARGE_PREDATOR]		Modest Mod
 	(BENIGN)[NATURAL]		Modest Mod
 	[PETVALUE:750]
+	[PET_EXOTIC]
 	[BIOME:ANY_OCEAN]
 	[POPULATION_NUMBER:15:30]
 	[CLUSTER_NUMBER:3:9]
@@ -709,6 +712,7 @@ Sponges were sponsored by the generous contributions of the Bay 12 community.
 	[PETVALUE:10]
 	[FREQUENCY:100]
 	[AQUATIC][NOBONES][IMMOBILE][UNDERSWIM]
+	[PET_EXOTIC]
 	[BENIGN][NATURAL]
 	[NOT_BUTCHERABLE]
 	[BIOME:ANY_OCEAN]
@@ -799,6 +803,7 @@ Horseshoe crabs were sponsored by the generous contributions of the Bay 12 commu
 	[BIOME:ANY_OCEAN]
 	[LARGE_ROAMING]
 	[AMPHIBIOUS][UNDERSWIM]
+	[PET_EXOTIC]
 	[FREQUENCY:100]
 	[POPULATION_NUMBER:250:500]
 	[PREFSTRING:ability to hide in sand]
@@ -909,6 +914,7 @@ Sperm whales were sponsored by the generous contributions of the Bay 12 communit
 	[LARGE_PREDATOR]				Modest Mod
 	(BENIGN)[MEANDERER][NATURAL]	removed by Modest Mod
 	[PETVALUE:1000]
+	[PET_EXOTIC]
 	[BIOME:ANY_OCEAN]
 	[POPULATION_NUMBER:15:30]
 	[CLUSTER_NUMBER:1:1]
@@ -1326,6 +1332,7 @@ Nautiluses were sponsored by the generous contributions of the Bay 12 community.
 	[CASTE_NAME:nautilus:nautiluses:nautilus]
 	[CREATURE_TILE:11][COLOR:4:0:1]
 	[PETVALUE:10]
+	[PET_EXOTIC]
 	[CHILD:1]			Modest Mod
 	[VERMIN_FISH]
 	[FREQUENCY:100]

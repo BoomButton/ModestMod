@@ -165,6 +165,7 @@ creature_next_underground
 	[NOBREATHE]
 	[NOBONES]
 	[EVIL]
+	[PET_EXOTIC]
 	[APPLY_CREATURE_VARIATION:STANDARD_WALK_CRAWL_GAITS:9000:8900:8825:8775:9500:9900] 1 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_CLIMBING_GAITS:9000:8900:8825:8775:9500:9900] 1 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:9000:8900:8825:8775:9500:9900] 1 kph
@@ -300,6 +301,7 @@ creature_next_underground
 	[UNDERGROUND_DEPTH:2:3]
 	[LARGE_ROAMING]
 	[PETVALUE:500]
+	[PET_EXOTIC]
 	[EVIL]
 	[DIFFICULTY:2][FREQUENCY:50]
 	[POPULATION_NUMBER:10:20]			Modest Mod (x2)
@@ -677,6 +679,7 @@ creature_next_underground
 	[UNDERGROUND_DEPTH:3:3]
 	(LARGE_PREDATOR)		Modest Mod
 	[DIVE_HUNTS_VERMIN]			Modest Mod
+	[PET_EXOTIC]
 	[NATURAL]
 	[EXTRAVISION]
 	[CANNOT_JUMP]
@@ -746,6 +749,7 @@ creature_next_underground
 	[CASTE_NAME:flesh ball:flesh balls:flesh ball]
 	[CREATURE_TILE:'o'][COLOR:6:0:0]
 	[PETVALUE:10]
+	[PET_EXOTIC]
 	[FREQUENCY:10]
 	[BIOME:SUBTERRANEAN_WATER]
 	[LARGE_ROAMING]
@@ -1023,6 +1027,7 @@ creature_next_underground
 	[CASTE_NAME:green devourer:green devourers:green devourer]
 	[CREATURE_TILE:'G'][COLOR:2:0:1]
 	[PETVALUE:200]
+	[PET_EXOTIC]
 	[NATURAL]
 	[LARGE_ROAMING][FREQUENCY:10]
 	[POPULATION_NUMBER:20:40]			Modest Mod (x2)
@@ -1327,6 +1332,7 @@ creature_next_underground
 	[PETVALUE:500]
 	[FREQUENCY:20]
 	[NATURAL][NOBONES]
+	[PET_EXOTIC]
 	[LARGE_ROAMING]
 	[BIOME:SUBTERRANEAN_CHASM]
 	[UNDERGROUND_DEPTH:1:2]
@@ -1379,6 +1385,7 @@ creature_next_underground
 	[UNDERGROUND_DEPTH:3:3]
 	[FREQUENCY:1]
 	[POPULATION_NUMBER:30:60]			Modest Mod (x2)
+	[PET_EXOTIC]
 	[CLUSTER_NUMBER:2:5]
 	[NOBONES]
 	[NOPAIN][EXTRAVISION][NOBREATHE][NOSTUN][NONAUSEA][NOEMOTION]
@@ -1539,6 +1546,7 @@ creature_next_underground
 	[CAN_LEARN][SLOW_LEARNER]
 	[LARGE_ROAMING][FREQUENCY:10]
 	[POPULATION_NUMBER:40:60]			Modest Mod (x2)
+	[PET_EXOTIC]
 	[CLUSTER_NUMBER:1:1]
 	[BIOME:SUBTERRANEAN_CHASM]
 	[UNDERGROUND_DEPTH:2:2]
@@ -1622,6 +1630,7 @@ creature_next_underground
 	[CASTE_NAME:molemarian:molemarians:molemarian]
 	[CHILD:10][GENERAL_CHILD_NAME:molemarian puppy:molemarian puppies]
 	[PETVALUE:400]
+	[PET_EXOTIC]
 	[CREATURE_TILE:'M'][COLOR:4:0:1]
 	[NATURAL]
 	[LARGE_ROAMING][FREQUENCY:20]
@@ -1826,6 +1835,7 @@ creature_next_underground
 	[CASTE_NAME:pond grabber:pond grabbers:pond grabber]
 	[CREATURE_TILE:'p'][COLOR:1:0:1]
 	[PETVALUE:50]
+	[PET_EXOTIC]
 	[AQUATIC][IMMOBILE_LAND]
 	[POPULATION_NUMBER:30:60]			Modest Mod (x2)
 	[CLUSTER_NUMBER:3:5]
@@ -2103,6 +2113,7 @@ creature_next_underground
 	[CASTE_NAME:reacher:reachers:reacher]
 	[CREATURE_TILE:'R'][COLOR:7:0:0]
 	[EVIL]
+	[PET_EXOTIC]
 	[PETVALUE:100]
 	[LARGE_ROAMING]
 	[LOW_LIGHT_VISION:10000]
@@ -2211,6 +2222,7 @@ creature_next_underground
 	[CASTE_NAME:gabbro man:gabbro men:gabbro man]
 	[CREATURE_TILE:'M'][COLOR:0:0:1]
 	[LARGE_ROAMING]
+	[PET_EXOTIC]
 	[BIOME:SUBTERRANEAN_CHASM]
 	[UNDERGROUND_DEPTH:3:3]
 	[FREQUENCY:1]
@@ -2272,6 +2284,7 @@ creature_next_underground
 	[NAME:gorlak:gorlaks:gorlak]
 	[CASTE_NAME:gorlak:gorlaks:gorlak]
 	[GOOD]
+	[PET_EXOTIC]
 	[CREATURE_TILE:'g'][COLOR:6:0:1]
 	[BIOME:SUBTERRANEAN_CHASM]
 	[UNDERGROUND_DEPTH:1:3]
@@ -2400,6 +2413,7 @@ creature_next_underground
 	[CASTE_NAME:cave floater:cave floaters:cave floater]
 	[CREATURE_TILE:'f'][COLOR:6:0:1]
 	[PETVALUE:50]
+	[PET_EXOTIC]
 	[BIOME:SUBTERRANEAN_CHASM]
 	[UNDERGROUND_DEPTH:2:3]
 	[LARGE_ROAMING]
@@ -2487,6 +2501,7 @@ creature_next_underground
 	[CASTE_NAME:plump helmet man:plump helmet men:plump helmet man]
 	[CREATURE_TILE:'m'][COLOR:5:0:0]
 	[LARGE_ROAMING]
+	[PET_EXOTIC]
 	[BIOME:SUBTERRANEAN_WATER]
 	[UNDERGROUND_DEPTH:2:3]
 	[FREQUENCY:20]
@@ -2649,6 +2664,7 @@ creature_next_underground
 	[CASTE_NAME:amethyst man:amethyst men:amethyst man]
 	[CREATURE_TILE:'M'][COLOR:5:0:1]
 	[LARGE_ROAMING]
+	[PET_EXOTIC]
 	[BIOME:SUBTERRANEAN_CHASM]
 	[UNDERGROUND_DEPTH:3:3]
 	[FREQUENCY:1]
