@@ -4,6 +4,9 @@ reaction_modest_plants
 
 [REACTION:PROCESS_FRUIT_TO_SEED]
 	[NAME:harvest seeds from seedpods]
+	[DESCRIPTION:Convert a seedpod, such as a soybean pod, into seeds.
+	[DESCRIPTION:	]
+	[DESCRIPTION:These seeds can be planted or eaten, though often they require cooking.]
 	[BUILDING:FARMER:CUSTOM_H]
 	[REAGENT:fruit:1:PLANT_GROWTH:NONE:NONE:NONE]
 		[HAS_MATERIAL_REACTION_PRODUCT:NUT]
